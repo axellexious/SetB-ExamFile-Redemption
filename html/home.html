@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Home</title>
+</head>
+<body onload="getName()" id="gold">
+    <div>
+        <div class=" w-50 align-middle" id="goldContainer">
+            <h2 class="pl-3">Student Grade Evaluator</h2>
+            <div class="pl-3">
+                <h4 id="stdName">Student Name:</h4>
+                <h4>List of Subjects:</h4>
+            </div>
+
+            <div class="container inline-block">
+                <div class="row inline-block">
+                    <div class="col-sm-3 font-weight-bold"><small>Subject Title</small> </div>
+                    <div class="col-sm-3 font-weight-bold text-center"><small class="pr-4"> Grade</small></div>
+                    <div class="col-sm-4 font-weight-bold"><small> Remarks</small></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="math">Math</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic" id="mathh" type="text" maxlength="3">
+                    </div>
+                    <div class="col-sm-5 font-weight-italic" id="maRemark">Evaluation</div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="science">Science</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic" id="sciencee" type="text" maxlength="3">
+                    </div>
+                    <div class="col-sm-5 font-weight-italic pr-5" id="sciRemark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="english">English</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic" id="englishh" type="text" maxlength="3">
+                    </div>
+                    <div class="col-sm-5 font-weight-italic pr-5" id="engRemark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="Filipino">Filipino</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic" id="filipinoo" type="text" maxlength="3">
+                    </div>
+                    <div class="col-sm-5 font-weight-italic pr-5" id="filRemark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="pe">P.E</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic" id="pee" type="text" maxlength="3">
+                    </div>
+                    <div class="col-sm-5 font-weight-italic pr-5" id="pRemark">Evaluation</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h4>Student Rank</h4>
+                    </div>
+                    <div class="col-sm-5">
+                        <h4 id="rank">Rank Here</h4>
+                    </div>
+ 
+                </div>
+            </div>
+            <div class="btn">
+                 <button onclick="grade()"><span>Evaluate</span></button>
+             </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+</body>
+</html>
